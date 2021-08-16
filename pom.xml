@@ -13,7 +13,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/Zebuilder/batch-processor</url>
+      <url>https://maven.pkg.github.com/Zebuilder/back-end</url>
     </repository>
   </distributionManagement>
 
