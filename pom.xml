@@ -11,7 +11,7 @@
 
   <repositories>
     <repository>
-      <id>packages</id>
+      <id>github</id>
       <url>https://maven.pkg.github.com/Zbuilder/*</url>
     </repository>
   </repositories>  
