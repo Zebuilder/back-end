@@ -12,7 +12,7 @@
   <repositories>
     <repository>
       <id>github</id>
-      <url>https://maven.pkg.github.com/Zbuilder/ai-processor</url>
+      <url>https://maven.pkg.github.com/Zebuilder/*</url>
     </repository>
   </repositories>  
 
