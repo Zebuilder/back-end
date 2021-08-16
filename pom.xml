@@ -9,6 +9,13 @@
 
   <name>Back End</name>
 
+  <repositories>
+    <repository>
+      <id>packages</id>
+      <url>https://maven.pkg.github.com/Zbuilder/*</url>
+    </repository>
+  </repositories>  
+
   <distributionManagement>
     <repository>
       <id>github</id>
