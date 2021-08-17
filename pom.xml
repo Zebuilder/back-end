@@ -3,83 +3,32 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.zolaton</groupId>
-  <artifactId>back-end</artifactId>
+  <artifactId>formatter</artifactId>
   <version>0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Back End</name>
+  <name>AI Processor</name>
+
+  <parent>
+    <groupId>io.zolaton</groupId>
+    <artifactId>zolaton-parent-pom</artifactId>
+    <version>0.2-SNAPSHOT</version>
+  </parent>
+
 
   <repositories>
     <repository>
       <id>github</id>
       <url>https://maven.pkg.github.com/Zebuilder/*</url>
     </repository>
-  </repositories>  
-
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/Zebuilder/back-end</url>
-    </repository>
-  </distributionManagement>
+  </repositories>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
-    </dependency>
     <dependency>
       <groupId>io.zolaton</groupId>
       <artifactId>ai-processor</artifactId>
       <version>0.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.2</version>
-        <configuration>
-          <!-- Compile java 7 compatible bytecode -->
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
-      </plugin>
-
-      <plugin>
-        <!-- Create sources.jar -->
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-source-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>attach-sources</id>
-            <goals>
-              <goal>jar</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>attach-javadocs</id>
-            <goals>
-              <goal>jar</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-
 
 </project>
