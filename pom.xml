@@ -21,6 +21,10 @@
       <id>github</id>
       <url>https://maven.pkg.github.com/Zebuilder/*</url>
     </repository>
+    <snapshotRepository>
+      <id>github-snapshots</id>
+      <url>https://maven.pkg.github.com/Zebuilder/*</url>
+    </snapshotRepository>
   </repositories>
 
   <dependencies>
