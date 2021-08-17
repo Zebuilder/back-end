@@ -15,16 +15,11 @@
     <version>0.2-SNAPSHOT</version>
   </parent>
 
-
   <repositories>
     <repository>
       <id>github</id>
       <url>https://maven.pkg.github.com/Zebuilder/*</url>
     </repository>
-    <snapshotRepository>
-      <id>github-snapshots</id>
-      <url>https://maven.pkg.github.com/Zebuilder/*</url>
-    </snapshotRepository>
   </repositories>
 
   <dependencies>
