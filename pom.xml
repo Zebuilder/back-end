@@ -7,7 +7,7 @@
   <version>0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>AI Processor</name>
+  <name>Back End Processor</name>
 
   <parent>
     <groupId>io.zolaton</groupId>
@@ -22,12 +22,12 @@
     </repository>
   </repositories>
 
-  <dependencies>
+  <!--<dependencies>
     <dependency>
       <groupId>io.zolaton</groupId>
       <artifactId>ai-processor</artifactId>
       <version>0.2-SNAPSHOT</version>
     </dependency>
-  </dependencies>
+  </dependencies>-->
 
 </project>
