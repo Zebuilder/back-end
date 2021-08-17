@@ -22,12 +22,12 @@
     </repository>
   </repositories>
 
-  <!--<dependencies>
+  <dependencies>
     <dependency>
       <groupId>io.zolaton</groupId>
       <artifactId>ai-processor</artifactId>
       <version>0.2-SNAPSHOT</version>
     </dependency>
-  </dependencies>-->
+  </dependencies>
 
 </project>
